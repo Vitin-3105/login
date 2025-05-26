@@ -1,0 +1,98 @@
+/* Fundo da página */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0f4ff, #dbe9ff);
+      padding: 40px;
+      margin: 0;
+    }
+
+    /* Título */
+    h1 {
+      text-align: center;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    /* Container do formulário */
+    form {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilo dos labels */
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    /* Estilo dos inputs */
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"],
+    input[type="number"],
+    input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+      box-sizing: border-box;
+      font-size: 14px;
+      transition: border-color 0.3s, background-color 0.3s;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus,
+    input[type="date"]:focus,
+    input[type="number"]:focus {
+      border-color: #4a90e2;
+      background-color: #ffffff;
+      outline: none;
+    }
+
+    /* Radio e checkbox inline */
+    .inline {
+      display: inline-block;
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+
+    /* Botão de envio */
+    input[type="submit"] {
+      margin-top: 25px;
+      background-color: #f5f7fd;
+      color: #0f0f0f;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #163172;
+    }
+
+    /* Estilo do checkbox e radio */
+    input[type="checkbox"],
+    input[type="radio"] {
+      margin-right: 6px;
+      transform: scale(1.1);
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      form {
+        padding: 20px;
+      }
+    }
